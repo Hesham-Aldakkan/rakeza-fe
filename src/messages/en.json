@@ -1,0 +1,294 @@
+{
+  "common": {
+    "appName": "Rakeza",
+    "appDesc": "Unified access to the world's most powerful AI models",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "noResults": "No results found",
+    "startNow": "Get Started",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "viewPricing": "View Pricing"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "blog": "Blog",
+    "dashboard": "Dashboard",
+    "chat": "Chat",
+    "models": "Models",
+    "usage": "Usage",
+    "settings": "Settings",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "landing": {
+    "hero": {
+      "title": "Unified Access to the World's Most Powerful AI Models",
+      "subtitle": "Use OpenAI, Anthropic, Google, and more through one unified interface. Predictable pricing. Arabic support.",
+      "cta": "Get Started for Free",
+      "secondary": "View Pricing"
+    },
+    "whyRakeza": {
+      "title": "Why Rakeza?",
+      "items": [
+        {
+          "title": "High Reliability",
+          "desc": "Reliable access to all leading AI models with guaranteed availability"
+        },
+        {
+          "title": "Unified Access",
+          "desc": "One interface for all models - no need to manage multiple API keys"
+        },
+        {
+          "title": "Predictable Pricing",
+          "desc": "Consistent and transparent pricing across all AI models"
+        },
+        {
+          "title": "Arabic Support",
+          "desc": "Full interface and documentation in Arabic"
+        }
+      ]
+    },
+    "topModels": {
+      "title": "Top Models",
+      "subtitle": "Access the latest and most powerful AI models"
+    },
+    "pricing": {
+      "title": "Transparent Pricing",
+      "subtitle": "Pay only for what you use",
+      "from": "From",
+      "perMonth": "/month",
+      "viewDetails": "View Details",
+      "customBundles": "Custom per-model bundles available"
+    },
+    "howItWorks": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "num": "1",
+          "title": "Create Account",
+          "desc": "Sign up easily and create your API key"
+        },
+        {
+          "num": "2",
+          "title": "Choose Models",
+          "desc": "Select the models you want to use from our unified interface"
+        },
+        {
+          "num": "3",
+          "title": "Use API or Chat",
+          "desc": "Use our powerful API or interactive chat interface"
+        },
+        {
+          "num": "4",
+          "title": "Track Usage",
+          "desc": "Monitor your usage and costs in an easy-to-use dashboard"
+        }
+      ]
+    },
+    "features": {
+      "title": "Powerful Features",
+      "streaming": {
+        "title": "Real-time Streaming",
+        "desc": "Get responses instantly with SSE streaming support"
+      },
+      "parallel": {
+        "title": "Parallel Processing",
+        "desc": "Easily compare models using parallel requests"
+      },
+      "mediator": {
+        "title": "Smart Mediator",
+        "desc": "Intelligent result merging from multiple models"
+      },
+      "history": {
+        "title": "Chat History",
+        "desc": "Save and search your complete conversation history"
+      },
+      "arabic": {
+        "title": "Full Arabic Support",
+        "desc": "Complete interface, documentation, and relationships in Arabic"
+      }
+    },
+    "trust": {
+      "title": "Trusted by Leading Companies",
+      "testimonial": "Rakeza transformed how we interact with AI models",
+      "by": "by"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is Rakeza?",
+          "a": "Rakeza is a unified platform that provides easy access to the world's most powerful AI models from multiple providers through one interface with unified pricing."
+        },
+        {
+          "q": "How does Rakeza differ from using APIs directly?",
+          "a": "Rakeza allows you to manage models from multiple providers through one interface, with unified and easy-to-understand pricing, instead of dealing with multiple keys and APIs."
+        },
+        {
+          "q": "Is my data safe?",
+          "a": "Yes, we use end-to-end encryption and full compliance with international security standards. See our privacy policy for more details."
+        },
+        {
+          "q": "What does it cost?",
+          "a": "Pricing is transparent and based on actual usage. No hidden fees. See our pricing page for details."
+        },
+        {
+          "q": "Do you support models not listed here?",
+          "a": "Yes, we're constantly adding new models. Contact us if you have a request for a specific model."
+        },
+        {
+          "q": "Is there a free trial?",
+          "a": "Yes, every new account gets free trial credits. Sign up now to get started."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Sign up today and get free trial credits",
+      "button": "Create Free Account"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Have questions? We're here to help",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "success": "Your message was sent successfully",
+      "error": "An error occurred. Please try again later"
+    }
+  },
+  "auth": {
+    "login": "Sign In",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "invalidEmail": "Invalid email address",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "loginSuccess": "Logged in successfully",
+    "signupSuccess": "Account created successfully"
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "quickStart": "Quick Start"
+  },
+  "chat": {
+    "newChat": "New Chat",
+    "selectModel": "Select Model",
+    "selectModels": "Select Models",
+    "typeMessage": "Type your message...",
+    "send": "Send",
+    "cancel": "Cancel",
+    "streaming": "Streaming...",
+    "streaming_stopped": "Stream stopped",
+    "temperature": "Temperature",
+    "maxTokens": "Max Tokens",
+    "history": "Chat History",
+    "noChats": "No chats yet",
+    "deleteChat": "Delete Chat",
+    "pinChat": "Pin Chat",
+    "unpinChat": "Unpin Chat",
+    "favoriteChat": "Add to Favorites",
+    "unfavoriteChat": "Remove from Favorites",
+    "parallel": "Parallel",
+    "mediator": "Mediator",
+    "export": "Export",
+    "exportMarkdown": "Export as Markdown",
+    "exportJSON": "Export as JSON"
+  },
+  "models": {
+    "allModels": "All Models",
+    "filterByProvider": "Filter by Provider",
+    "filterByCapability": "Filter by Capability",
+    "available": "Available",
+    "degraded": "Degraded",
+    "unavailable": "Unavailable",
+    "text": "Text",
+    "image": "Image",
+    "audio": "Audio",
+    "vision": "Vision",
+    "noModels": "No models found"
+  },
+  "usage": {
+    "title": "Usage & Analytics",
+    "totalRequests": "Total Requests",
+    "totalTokens": "Total Tokens",
+    "totalCost": "Total Cost",
+    "period": "Time Period",
+    "byModel": "By Model",
+    "byDay": "By Day",
+    "export": "Export",
+    "noData": "No data available"
+  },
+  "billing": {
+    "title": "Billing",
+    "balance": "Balance",
+    "available": "Available",
+    "reserved": "Reserved",
+    "nextBillingDate": "Next Billing Date",
+    "paymentMethod": "Payment Method",
+    "updatePayment": "Update Payment Method",
+    "billingHistory": "Billing History",
+    "invoice": "Invoice",
+    "date": "Date",
+    "amount": "Amount",
+    "status": "Status"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "account": "Account",
+    "apiKeys": "API Keys",
+    "security": "Security",
+    "notifications": "Notifications",
+    "preferences": "Preferences",
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "emailNotifications": "Email Notifications",
+    "marketingEmails": "Marketing Emails",
+    "createKey": "Create New Key",
+    "keyName": "Key Name",
+    "copy": "Copy",
+    "rotate": "Rotate",
+    "revoke": "Revoke",
+    "createdAt": "Created",
+    "lastUsed": "Last Used"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "serverError": "Server error",
+    "invalidInput": "Invalid input",
+    "tryAgain": "Try again"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "docs": "Documentation",
+    "contact": "Contact",
+    "copyright": "All rights reserved"
+  }
+}
