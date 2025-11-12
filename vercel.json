@@ -1,0 +1,76 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --legacy-peer-deps",
+  "devCommand": "npm run dev",
+  "framework": "nextjs",
+  "regions": ["iad1", "sfo1"],
+  "env": {
+    "NEXT_PUBLIC_API_BASE_URL": "@next_public_api_base_url",
+    "NEXT_PUBLIC_DEFAULT_LOCALE": "@next_public_default_locale",
+    "NEXT_PUBLIC_SUPPORTED_LOCALES": "@next_public_supported_locales",
+    "NEXT_PUBLIC_SITE_NAME": "@next_public_site_name",
+    "NEXT_PUBLIC_BASE_URL": "@next_public_base_url",
+    "NEXT_PUBLIC_FEATURE_CHAT": "@next_public_feature_chat",
+    "NEXT_PUBLIC_FEATURE_PARALLEL": "@next_public_feature_parallel",
+    "NEXT_PUBLIC_FEATURE_MEDIATOR": "@next_public_feature_mediator",
+    "NEXT_PUBLIC_ANALYTICS_ENABLED": "@next_public_analytics_enabled",
+    "SENTRY_DSN": "@sentry_dsn"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  },
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    },
+    {
+      "source": "/api/.*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/:path*.(js|css|png|jpg|jpeg|gif|svg|webp|woff|woff2|ttf|eot)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/ar",
+      "permanent": false
+    }
+  ]
+}
